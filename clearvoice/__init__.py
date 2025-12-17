@@ -72,8 +72,8 @@ class ClearVoice:
                 return results
         else:
        	    return
-
-def write(self, results, output_path):
+        
+    def write(self, results, output_path):
         add_subdir = False
         use_key = False
         if len(self.models) > 1: add_subdir = True #multi_model is True        
