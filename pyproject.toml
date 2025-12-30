@@ -6,13 +6,14 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "clearvoice"
-version = "0.1.2"
+name = "clearervoice"
+version = "0.1.3"
 description = "A unified inference platform for speech processing tasks"
 authors = [
   { name = "Zhao Shengkui", email = "shengkui.zhao@alibaba-inc.com" },
   { name = "Pan Zexu", email = "zexu.pan@alibaba-inc.com" },
   { name = "Nguyen Trung Hieu", email = "trunghieu.nguyen@alibaba-inc.com" },
+  { name = "Du Jing", email = "thuduj12@163.com" },
 ]
 license = "Apache-2.0"
 readme = "README.md"
@@ -23,13 +24,13 @@ dependencies = [
   "gdown",
   "huggingface-hub>=0.26.2",
   "joblib",
-  "librosa==0.10.2.post1",
+  "librosa==0.9.2",
   "numpy>=1.24.3,<2.0",
   "opencv-python==4.10.0.84",
   "packaging",
   "pydub",
   "python_speech_features==0.6",
-  "rotary_embedding_torch==0.8.3",
+  "rotary_embedding_torch>=0.8.3",
   "scenedetect==0.6.6",
   "scikit_learn",
   "scipy>=1.10.1",
@@ -43,7 +44,7 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/modelscope/ClearerVoice-Studio"
+homepage = "https://github.com/duj12/ClearerVoice"
 
 [tool.setuptools.package-data]
 "clearvoice" = ["config/**/*.yaml", "config/**/*.json"]

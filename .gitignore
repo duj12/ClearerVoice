@@ -3,3 +3,5 @@
 **/._*
 **/.ipynb_checkpoints/
 clearvoice.egg-info/
+clearervoice.egg-info/
+dist/
